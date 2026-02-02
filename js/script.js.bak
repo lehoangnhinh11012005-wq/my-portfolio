@@ -1,0 +1,4 @@
+document.addEventListener('DOMContentLoaded', () => {
+  console.log('Portfolio của Lê Hoàng Nhinh đã load xong!');
+  alert('Chào mừng bạn đến với portfolio cá nhân của mình!');
+});
