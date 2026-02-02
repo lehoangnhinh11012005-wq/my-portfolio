@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Đèn kéo quân nâng cao</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🌀 Đèn kéo quân 3D nâng cao</h1>
+<p>Hover để dừng – Click để xem lớn – Kéo thanh chỉnh tốc độ</p>
+
+<div class="control">
+    <label>Tốc độ quay</label>
+    <input type="range" min="5" max="30" value="15" id="speed">
+</div>
+
+<div class="scene">
+    <div class="light"></div>
+    <div class="carousel" id="carousel">
+        <img src="images/1.jpg">
+        <img src="images/2.jpg">
+        <img src="images/3.jpg">
+        <img src="images/4.jpg">
+        <img src="images/5.jpg">
+        <img src="images/6.jpg">
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal" id="modal">
+    <img id="modalImg">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
